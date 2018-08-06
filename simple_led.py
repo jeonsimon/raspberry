@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# 출처 : https://kocoafab.cc/tutorial/view/310
+
 import RPi.GPIO as GPIO
 import time
 
@@ -21,3 +24,4 @@ try:
 
 except KeyboardInterrupt:
     GPIO.cleanup()
+
